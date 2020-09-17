@@ -1,0 +1,88 @@
+button {
+  width: 95px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #3e3074;
+  color: aliceblue;
+  font-weight: bold;
+  margin: 0px 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: #3e3074;
+}
+
+.button {
+  margin-top: 15px;
+  width: 95px;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: beige;
+  padding-bottom: 25px;
+}
+
+.todo {
+  display: flex;
+  width: 65%;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid black;
+  justify-content: center;
+}
+
+.itemTodo {
+  padding: 0px 5px;
+}
+
+.doneButton {
+  margin-left: 15px;
+  width: 55px;
+  height: 25px;
+  background-color: aliceblue;
+  color: #3e3074;
+}
+
+.doneButton:hover {
+  background-color: #3e3074;
+  color: aliceblue;
+}
+
+input {
+  margin-left: 15px;
+}
+
+/* ------------------- HEADER ------------------- */
+.header {
+  display: flex;
+  background-color: #3e3074;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navLink {
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  font-weight: bold;
+  margin: 0 15px;
+  cursor: pointer;
+  color: #fff;
+  padding-bottom: 3px;
+}
+
+img {
+  position: absolute;
+  width: 35px;
+  left: 30px;
+  top: 5px;
+}
